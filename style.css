@@ -1,0 +1,113 @@
+/* Modfied by Farhan  */
+
+@import url('https://fonts.googleapis.com/css?family=Almendra+SC'); 
+@import url('https://fonts.googleapis.com/css?family=Luna'); 
+ h1{
+    background-color: rgb(246, 15, 177);
+    box-shadow:0 0 40px white;
+    width:100%;
+    top:-2.5%;
+    left:-1%;
+    border-radius:5px;  
+    text-align:center;
+    color: #E0FFFF;
+    height:67px;
+    font-size:27px;
+    position:fixed;
+    font-family:Almendra SC;
+    }
+    .logo{
+    position:fixed ;
+    top:7.2%;
+    height:25px;
+    width:25px;
+    border:2px solid crimson;
+    left:20%;
+    background-color:transparent;
+    border-radius:50%;  
+    } 
+    body{
+        background-color:#262626;
+    }
+.container{
+    border:4px solid #dedede;
+    background-color:#e0f8ba;
+    border-radius:10px;
+     padding:10px;
+     font-family:'Luna';
+    margin:10px 0;
+    font-weight:bolder;
+}
+.id{
+    float:left;
+}
+.id2{
+    float:right;
+}
+.container1{
+    border-color:#ccc;
+    background-color:#ddd;
+    margin-left:14%;
+    border:4px solid #dedede;
+    background-color:#f5cdcd;
+    border-radius:10px;
+   padding:10px;
+   margin-top:5%;
+   font-family:'Luna';
+   font-weight:bolder;
+}
+
+.container::after{
+content:'';
+clear:both;
+display:table;
+    
+}
+.container::after{
+    float:left;
+    max-width:20px;
+    width:100%;
+    margin-right:20px;
+    border-radius:50%;
+
+}
+.container img .right{
+    float:right;
+    margin-left:20px;
+    margin-right:0;
+}
+.right{
+    margin-left:20%;
+}
+.time-right{
+    float:right;
+    margin-top:-3%;
+    color:#aaa;
+}
+ .time-left{
+     float:left;
+     margin-top:-1%;
+     color:#aaa;
+ }
+img{
+    border-radius:50%;
+}
+.a{
+    margin-top:7%;
+}
+
+.b{
+    margin-top:1%;
+}
+
+a{
+            display:block;
+            color:#004466;
+            background-color: white;
+            padding:10px 0;
+            border-radius:9px;
+            font-size: 17px;
+            text-decoration: none;
+            font-family: 'Poppins',sans-serif;
+       
+        }
